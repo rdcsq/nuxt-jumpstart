@@ -9,7 +9,11 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "format": "prettier -w **/*.vue **/*.ts",
-    "format:check": "prettier -c **/*.vue **/*.ts"
+    "format:check": "prettier -c **/*.vue **/*.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "db:check": "drizzle-kit check"
   },
   "dependencies": {
     "drizzle-orm": "^0.33.0",
