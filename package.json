@@ -7,7 +7,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "format": "prettier -w **/*.vue **/*.ts",
+    "format:check": "prettier -c **/*.vue **/*.ts"
   },
   "dependencies": {
     "drizzle-orm": "^0.33.0",
@@ -16,6 +18,8 @@
     "vue": "latest"
   },
   "devDependencies": {
-    "drizzle-kit": "^0.24.2"
+    "drizzle-kit": "^0.24.2",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6"
   }
 }
