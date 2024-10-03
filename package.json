@@ -17,15 +17,15 @@
   },
   "dependencies": {
     "drizzle-orm": "^0.33.0",
-    "nuxt": "^3.13.1",
+    "nuxt": "^3.13.2",
     "postgres": "^3.4.4",
-    "vue": "^3.5.1"
+    "vue": "^3.5.10"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.1",
     "drizzle-kit": "^0.24.2",
     "prettier": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.6.6",
-    "tailwindcss": "^3.4.10"
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "tailwindcss": "^3.4.13"
   }
 }
